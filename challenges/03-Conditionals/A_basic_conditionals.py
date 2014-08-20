@@ -8,14 +8,14 @@ john_age = 32
 ## We'll start out safe and assume no one can drink until we check!
 
 sally_can_drink = False
-john_can_drink = False
+john_can_drink = True
 
 ## Now replace False below with the "correct" condition
 ## Remember, we're playing it safe - so we should never say sally_can_drink is
 ## True!
 
 if False: # conditionals take True or False
-    sally_can_drink = True
+    sally_can_drink = False
 
 ## And please take care of john!
 
