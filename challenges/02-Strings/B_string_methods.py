@@ -8,11 +8,11 @@ from A_defining_strings import your_first_name, your_last_name
 
 ## Set cap_last_name to an uppercase version of your_last_name
 
-
+cap_last_name = your_last_name.upper()
 
 ## You can print it to see how it looks
 
-
+print cap_last_name
 
 ## And we'll need to check how long your name is to make sure there's enough
 ## space in our database! Be sure to count a space between your first and last
@@ -21,9 +21,11 @@ from A_defining_strings import your_first_name, your_last_name
 ## Put the total length of your name in name_len. You can use multiple steps if
 ## you like.
 
+name_len = len(your_first_name) + len(your_last_name) + 1
 
 
-print "We'll need", "your name_len here", "characters for my name"
+
+print "We'll need", name_len, "characters for my name"
 
 
 ## Note that we've been using print with commas. This puts a space between each
@@ -33,3 +35,5 @@ print "We'll need", "your name_len here", "characters for my name"
 ## For example, I'd be "CLARK, Dav"
 
 print "CLARK, Dav... wait, that's not right!"
+
+print cap_last_name + ', ' + your_first_name
